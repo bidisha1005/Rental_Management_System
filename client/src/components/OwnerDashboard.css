@@ -1,0 +1,165 @@
+.owner-dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.owner-dashboard h1 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dashboard-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.dashboard-nav button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dashboard-nav button:hover {
+    background-color: #e0e0e0;
+}
+
+.dashboard-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.form-section h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input,
+form select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 200px;
+}
+
+form button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.list-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+.tenant-id {
+    font-family: monospace;
+    font-weight: 500;
+    color: #666;
+    background-color: #f8f8f8;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f8f8f8;
+}
+
+table select, table button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+table button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+}
+
+table button:hover {
+    background-color: #cc0000;
+}
+
+/* Service Request Styles */
+.status-select {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-weight: 500;
+    width: 120px;
+}
+
+.status-select.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-select.in-progress {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.status-select.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.staff-info {
+    margin-top: 4px;
+    font-size: 0.85em;
+    color: #666;
+}

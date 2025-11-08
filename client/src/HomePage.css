@@ -1,0 +1,135 @@
+.home-background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://gharko.in/cdn/shop/articles/interior_design_2c5c263c-b24f-4e6b-b241-f507c0a583d2.webp?v=1746342443');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-overlay {
+  background-color: rgba(255, 254, 254, 0.6);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #07420f;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.home-button {
+  padding: 12px 35px;
+  font-size: 1.2rem;
+  background-color: #07420f;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+.home-button:hover {
+  background-color: #062d19;
+  transform: translateY(-3px);
+}
+
+.home-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: #07420f;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  font-family: 'Arial', sans-serif;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #07420f;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.modal-content input:focus {
+  border-color: #062d19;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background-color: #07420f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #062d19;
+  transform: translateY(-2px);
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn:hover {
+  background-color: #999;
+}
